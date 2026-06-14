@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook:wayland-is-broken" # upstream forces GDK_BACKEND=x11 in their launcher script
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/hicolor/scalable/apps/com.devolutions.remotedesktopmanager.desktop
+export ICON=/usr/share/icons/hicolor/scalable/apps/com.devolutions.remotedesktopmanager.svg
 export DESKTOP=/usr/share/applications/com.devolutions.remotedesktopmanager.desktop
 
 # Deploy dependencies
